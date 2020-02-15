@@ -79,7 +79,7 @@ def display(i, state):
         print()
 
 
-# initial state is a glider
+# initial state
 glider = set([(0, 0), (1, 0), (2, 0), (0, 1), (1, 2)])
 state = set(glider) | set(shift((5, -5), glider))
 randint = lambda: random.randint(-15, 15)
